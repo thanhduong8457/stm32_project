@@ -1,0 +1,38 @@
+./objects/stm32f4xx_tim.o: \
+  Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h \
+  Core\stm32f4xx.h \
+  C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h \
+  C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h \
+  C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h \
+  Core\system_stm32f4xx.h Core\stm32f4xx_conf.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h \
+  Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h

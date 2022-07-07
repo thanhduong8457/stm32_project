@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/Core/**",
+                "${workspaceRoot}/Drivers/STM32F4xx_StdPeriph_Driver/inc",
+                "${workspaceRoot}/Drivers/CMSIS/Include",
+                "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "/mnt/c/Users/duong.le-thanh/Documents/STM32/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/include/**",
+                "/mnt/c/Users/duong.le-thanh/Documents/STM32/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/11.2.1/include"
+            ],
+            "defines": [
+                "USE_STDPERIPH_DRIVER",
+                "STM32F40_41xxx",
+                "HSE_VALUE=8000000",
+                "MY_FLAG"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "/mnt/c/Users/duong.le-thanh/Documents/STM32/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/include/**",
+                    "/mnt/c/Users/duong.le-thanh/Documents/STM32/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/11.2.1/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+            },
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
