@@ -5,11 +5,11 @@
             "includePath": [
                 "${workspaceRoot}",
                 "${workspaceRoot}/Core/**",
-                "${workspaceRoot}/Drivers/STM32F4xx_StdPeriph_Driver/inc",
-                "${workspaceRoot}/Drivers/CMSIS/Include",
-                "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
-                "/mnt/c/Users/duong.le-thanh/Documents/STM32/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/include/**",
-                "/mnt/c/Users/duong.le-thanh/Documents/STM32/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/11.2.1/include"
+                "${workspaceRoot}/../_Drivers_/STM32F4xx_StdPeriph_Driver/inc",
+                "${workspaceRoot}/../_Drivers_/CMSIS/Include",
+                "${workspaceRoot}/../_Drivers_/CMSIS/Device/ST/STM32F4xx/Include",
+                "/mnt/c/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/**",
+                "/mnt/c/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/11.2.1/include"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",
@@ -18,13 +18,13 @@
                 "MY_FLAG"
             ],
             "intelliSenseMode": "linux-gcc-x64",
-            "cStandard": "c11",
-            "cppStandard": "c++20",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
             "browse": {
                 "path": [
                     "${workspaceRoot}",
-                    "/mnt/c/Users/duong.le-thanh/Documents/STM32/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/include/**",
-                    "/mnt/c/Users/duong.le-thanh/Documents/STM32/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/11.2.1/include"
+                    "/mnt/c/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/**",
+                    "/mnt/c/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/11.2.1/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"

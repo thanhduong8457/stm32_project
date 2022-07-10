@@ -4,7 +4,7 @@
  *      *** Do not modify ! ***
  *
  * Project: 'FreeRTOS' 
- * Target:  'FreeRTOS' 
+ * Target:  'follow_object' 
  */
 
 #ifndef RTE_COMPONENTS_H

@@ -22,7 +22,7 @@
   </DaveTm>
 
   <Target>
-    <TargetName>FreeRTOS</TargetName>
+    <TargetName>follow_object</TargetName>
     <ToolsetNumber>0x4</ToolsetNumber>
     <ToolsetName>ARM-ADS</ToolsetName>
     <TargetOption>
