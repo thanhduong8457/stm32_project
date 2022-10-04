@@ -1,0 +1,306 @@
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\SymMover1\C\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\ARM\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Minh Phuc\Desktop\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+F:\ARM\btl_đl_đkmt\BTL_đldkmt\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Minh Phuc\Desktop\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Minh Phuc\Desktop\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\BK\HETHONGNHUNG\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Minh Phuc\Desktop\MINH PHUC\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\ACER\Desktop\BTL\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\DELL\Documents\BKU\Semester 202\Hệ thống điều khiển nhúng\BTL\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\DELL\Documents\Code STM32\HTDKN___13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\DELL\Documents\STM32_Code\STM32_F4\HTDKN__13\BTVN_ADC\vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

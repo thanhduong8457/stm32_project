@@ -1,0 +1,43 @@
+// Length of receive buffer 
+
+#define USB_VCP_RECEIVE_BUFFER_LENGTH		128
+
+// Function Get array from buffer 
+/**
+ * @brief  Gets received character from internal buffer
+ * @param  *c: pointer to store new character to
+ * @retval Character status:
+ *            - TM_USB_VCP_DATA_OK: Character is valid inside *c_str
+ *            - TM_USB_VCP_DATA_EMPTY: No character in *c
+ */
+TM_USB_VCP_Result TM_USB_VCP_Getc(uint8_t* c);
+
+
+// Function send data 
+/**
+ * @brief  Sends array of data to USB VCP
+ * @param  *DataArray: Pointer to 8-bit data array to be sent over USB
+ * @param  Length: Number of elements to sent in units of bytes
+ * @retval Sending status
+ */
+TM_USB_VCP_Result TM_USB_VCP_Send(uint8_t* DataArray, uint32_t Length);
+
+
+// Check buffer 
+/**
+ * @brief  Checks if receive buffer is empty
+ * @param  None
+ * @retval Buffer status:
+ *            - 0: Buffer is not empty
+ *            - > 0: Buffer is empty
+ */
+uint8_t TM_USB_VCP_BufferEmpty(void);
+
+/**
+ * @brief  Checks if receive buffer is full
+ * @param  None
+ * @retval Buffer status:
+ *            - 0: Buffer is not full
+ *            - > 0: Buffer is full
+ */
+uint8_t TM_USB_VCP_BufferFull(void);

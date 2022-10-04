@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"7seg\startup_stm32f103xb.o"
+"7seg\main.o"
+"7seg\stm32f1xx_it.o"
+"7seg\stm32f1xx_hal_msp.o"
+"7seg\stm32f1xx_hal_gpio_ex.o"
+"7seg\stm32f1xx_hal_tim.o"
+"7seg\stm32f1xx_hal_tim_ex.o"
+"7seg\stm32f1xx_hal.o"
+"7seg\stm32f1xx_hal_rcc.o"
+"7seg\stm32f1xx_hal_rcc_ex.o"
+"7seg\stm32f1xx_hal_gpio.o"
+"7seg\stm32f1xx_hal_dma.o"
+"7seg\stm32f1xx_hal_cortex.o"
+"7seg\stm32f1xx_hal_pwr.o"
+"7seg\stm32f1xx_hal_flash.o"
+"7seg\stm32f1xx_hal_flash_ex.o"
+"7seg\stm32f1xx_hal_exti.o"
+"7seg\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "7seg\7seg.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "7seg.map" -o 7seg\7seg.axf
