@@ -1,449 +1,0 @@
-Dependencies for Project 'FreeRTOS', Target 'FreeRTOS': (DO NOT MODIFY !)
-CompilerVersion: 6140001::V6.14.1::ARMCLANG
-F (.\Core\main.c)(0x62C30F5F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/main.o -MD)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F51209E)
-I (Core\gpio.h)(0x62C191B2)
-I (Core\delay.h)(0x629658FC)
-I (Core\uart.h)(0x62C19330)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (Core\cJSON\cJSON.h)(0x629658FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-F (.\Core\delay.c)(0x62C1938F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/delay.o -MD)
-I (Core\delay.h)(0x629658FC)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
-F (.\Core\gpio.c)(0x62C197C4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/gpio.o -MD)
-I (Core\gpio.h)(0x62C191B2)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
-I (Core\delay.h)(0x629658FC)
-F (.\Core\interrupt.c)(0x629658FC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/interrupt.o -MD)
-I (Core\interrupt.h)(0x629658FC)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
-F (.\Core\system_stm32f4xx.c)(0x629658FC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/system_stm32f4xx.o -MD)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
-F (.\Core\uart.c)(0x62C19314)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/uart.o -MD)
-I (Core\uart.h)(0x62C19330)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (Core\cJSON\cJSON.h)(0x629658FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-F (.\Core\cJSON\cJSON.c)(0x629658FC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/cjson.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\ctype.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\float.h)(0x5F51209E)
-I (Core\cJSON\cJSON.h)(0x629658FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-F (.\Core\startup_stm32f407xx.s)(0x629658FC)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g-I.\RTE\_FreeRTOS-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 532"--pd "_RTE_ SETA 1"--pd "STM32F407xx SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_stm32f407xx.lst--xref -o .\objects\startup_stm32f407xx.o--depend .\objects\startup_stm32f407xx.d)
-F (.\Drivers\STM32F4xx_StdPeriph_Driver\src\misc.c)(0x629658FC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/misc.o -MD)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
-F (.\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c)(0x629658FC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/stm32f4xx_tim.o -MD)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
-F (.\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c)(0x629658FC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/stm32f4xx_usart.o -MD)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
-F (.\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x629658FC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/stm32f4xx_gpio.o -MD)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
-F (.\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x629658FC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./FreeRTOS/include -I ./Core/cJSON-I./RTE/_FreeRTOS-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ./objects/stm32f4xx_rcc.o -MD)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x629658FC)
-I (Core\stm32f4xx.h)(0x629658FC)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\system_stm32f4xx.h)(0x629658FC)
-I (Core\stm32f4xx_conf.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x629658FC)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x629658FC)
