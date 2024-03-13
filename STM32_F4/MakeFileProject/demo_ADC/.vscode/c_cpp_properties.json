@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/src",
+                "${workspaceRoot}/../_Drivers_/STM32F4xx_StdPeriph_Driver/inc",
+                "${workspaceRoot}/../_Drivers_/CMSIS/Include",
+                "${workspaceRoot}/../_Drivers_/CMSIS/Device/ST/STM32F4xx/Include"
+            ],
+            "defines": [
+                "USE_STDPERIPH_DRIVER",
+                "STM32F40_41xxx",
+                "HSE_VALUE=8000000",
+                "MY_FLAG"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+            },
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
