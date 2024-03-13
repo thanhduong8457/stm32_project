@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.12)
 
 # ##############################################################################
 # Edit your MCU information up to the next border
-project(sample-f407vg)
+project(demo_ADC)
 set(PROJECT_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
 set(MCU_FAMILY STM32F4xx)
