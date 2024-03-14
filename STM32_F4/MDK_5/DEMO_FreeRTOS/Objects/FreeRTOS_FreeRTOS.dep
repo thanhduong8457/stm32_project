@@ -1,589 +1,0 @@
-Dependencies for Project 'FreeRTOS', Target 'FreeRTOS': (DO NOT MODIFY !)
-CompilerVersion: 6140001::V6.14.1::ARMCLANG
-F (.\Core\Src\main.c)(0x62432913)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/main.o -MD)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x62234074)
-I (Core\Inc\gpio.h)(0x621A1E6A)
-I (Core\Inc\delay.h)(0x6219E463)
-I (Core\Inc\interrupt.h)(0x6220FF2A)
-I (Core\Inc\uart.h)(0x622495F3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (Core\Inc\cJSON.h)(0x62246E0E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\FreeRTOSConfig.h)(0x621FA038)
-I (ThirdParty\FreeRTOS\include\projdefs.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\portable.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\task.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\list.h)(0x61C2FCBA)
-F (.\Core\Inc\delay.h)(0x6219E463)()
-F (.\Core\Src\delay.c)(0x621E49D5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/delay.o -MD)
-I (Core\Inc\delay.h)(0x6219E463)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-F (.\Core\Inc\gpio.h)(0x621A1E6A)()
-F (.\Core\Src\gpio.c)(0x622C62E9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/gpio.o -MD)
-I (Core\Inc\gpio.h)(0x621A1E6A)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-I (Core\Inc\delay.h)(0x6219E463)
-I (ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x61C2FCBA)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\FreeRTOSConfig.h)(0x621FA038)
-I (ThirdParty\FreeRTOS\include\projdefs.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\portable.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\task.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\list.h)(0x61C2FCBA)
-F (.\Core\Inc\interrupt.h)(0x6220FF2A)()
-F (.\Core\Src\interrupt.c)(0x62260C3C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/interrupt.o -MD)
-I (Core\Inc\interrupt.h)(0x6220FF2A)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-F (.\Core\Inc\uart.h)(0x622495F3)()
-F (.\Core\Src\uart.c)(0x622C62D7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/uart.o -MD)
-I (Core\Inc\uart.h)(0x622495F3)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x62234074)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (Core\Inc\cJSON.h)(0x62246E0E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-F (.\Core\Inc\cJSON.h)(0x62246E0E)()
-F (.\Core\Src\cJSON.c)(0x62246E0E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/cjson.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x62234074)
-I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\ctype.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\float.h)(0x5F51209E)
-I (Core\Inc\cJSON.h)(0x62246E0E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-F (.\Core\Inc\system_stm32f4xx.h)(0x527CFAF0)()
-F (.\Core\Src\system_stm32f4xx.c)(0x5F6ADFE6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/system_stm32f4xx.o -MD)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-F (.\Core\Inc\stm32f4xx.h)(0x621A53AD)()
-F (.\Core\Inc\stm32f4xx_conf.h)(0x52834920)()
-F (.\Core\Src\startup_stm32f407xx.s)(0x5F6ADFE6)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g-I.\RTE\_FreeRTOS-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 532"--pd "_RTE_ SETA 1"--pd "STM32F407xx SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_stm32f407xx.lst--xref -o .\objects\startup_stm32f407xx.o--depend .\objects\startup_stm32f407xx.d)
-F (.\Drivers\STM32F4xx_StdPeriph_Driver\src\misc.c)(0x527D5151)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/misc.o -MD)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-F (.\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c)(0x527D5152)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/stm32f4xx_tim.o -MD)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-F (.\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c)(0x527D5152)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/stm32f4xx_usart.o -MD)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-F (.\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x527D5151)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/stm32f4xx_gpio.o -MD)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-F (.\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x527D5152)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/stm32f4xx_rcc.o -MD)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
-I (Core\Inc\stm32f4xx.h)(0x621A53AD)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
-I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
-I (Core\Inc\system_stm32f4xx.h)(0x527CFAF0)
-I (Core\Inc\stm32f4xx_conf.h)(0x52834920)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x527D513A)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
-I (Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
-F (.\ThirdParty\FreeRTOS\event_groups.c)(0x61C2FCBA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/event_groups.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x61C2FCBA)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\FreeRTOSConfig.h)(0x621FA038)
-I (ThirdParty\FreeRTOS\include\projdefs.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\portable.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\task.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\list.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\timers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\event_groups.h)(0x61C2FCBA)
-F (.\ThirdParty\FreeRTOS\list.c)(0x61C2FCBA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/list.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x61C2FCBA)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\FreeRTOSConfig.h)(0x621FA038)
-I (ThirdParty\FreeRTOS\include\projdefs.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\portable.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\list.h)(0x61C2FCBA)
-F (.\ThirdParty\FreeRTOS\queue.c)(0x61C2FCBA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/queue.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x61C2FCBA)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\FreeRTOSConfig.h)(0x621FA038)
-I (ThirdParty\FreeRTOS\include\projdefs.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\portable.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\task.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\list.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\queue.h)(0x61C2FCBA)
-F (.\ThirdParty\FreeRTOS\stream_buffer.c)(0x61C2FCBA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/stream_buffer.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x61C2FCBA)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\FreeRTOSConfig.h)(0x621FA038)
-I (ThirdParty\FreeRTOS\include\projdefs.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\portable.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\task.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\list.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\stream_buffer.h)(0x61C2FCBA)
-F (.\ThirdParty\FreeRTOS\tasks.c)(0x61C2FCBA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/tasks.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x61C2FCBA)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\FreeRTOSConfig.h)(0x621FA038)
-I (ThirdParty\FreeRTOS\include\projdefs.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\portable.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\task.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\list.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\timers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\stack_macros.h)(0x61C2FCBA)
-F (.\ThirdParty\FreeRTOS\timers.c)(0x61C2FCBA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/timers.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x61C2FCBA)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\FreeRTOSConfig.h)(0x621FA038)
-I (ThirdParty\FreeRTOS\include\projdefs.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\portable.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\task.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\list.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\queue.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\timers.h)(0x61C2FCBA)
-F (.\ThirdParty\FreeRTOS\portable\MemMang\heap_4.c)(0x61C2FCBA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/heap_4.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x61C2FCBA)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\FreeRTOSConfig.h)(0x621FA038)
-I (ThirdParty\FreeRTOS\include\projdefs.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\portable.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\task.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\list.h)(0x61C2FCBA)
-F (.\ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\port.c)(0x61C2FCBA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ./Core/Inc -I ./Drivers/STM32F4xx_StdPeriph_Driver/inc -I ./ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I ./ThirdParty/FreeRTOS/include -I ./ThirdParty/FreeRTOS-I./RTE/_FreeRTOS-IC:/Users/DELL/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DHSE_VALUE="8000000"-o ./objects/port.o -MD)
-I (ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x61C2FCBA)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51209E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51209E)
-I (ThirdParty\FreeRTOS\FreeRTOSConfig.h)(0x621FA038)
-I (ThirdParty\FreeRTOS\include\projdefs.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\portable.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\task.h)(0x61C2FCBA)
-I (ThirdParty\FreeRTOS\include\list.h)(0x61C2FCBA)
