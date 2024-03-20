@@ -15,12 +15,20 @@ int main(void) {
   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
   GPIO_Init(GPIOC, &GPIO_InitStructure);
-     
+  int a = 0;
+  int tick = 0;
   while (1) {
     GPIO_SetBits(GPIOC, GPIO_Pin_13);
-    delay_ms(500);
+    delay_ms(a);
     GPIO_ResetBits(GPIOC, GPIO_Pin_13);
-    delay_ms(500);
+    delay_ms(10-a);
+    if(tick++==100) {
+      tick = 0;
+      a +=1;
+      if (a > 10) {
+        a = 0;
+      }
+    }
     /* Set PD0 and PD2 */
     // GPIOC->BSRR = 0xffffffff;
     /* Reset PD0 and PD2 */

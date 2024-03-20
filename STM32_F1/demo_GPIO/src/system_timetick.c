@@ -58,10 +58,11 @@ static void __empty() {
 }
 
 void SysTick_Handler(void) {
-	//neu ngat 1ms su dung 2 ham millis() v?micros()
-  counter_ms++;//1ms
-	//neu ngat 1us
-	//counter_us++; counter_ms %= counter_us;//1us
+	//with interrupt 1ms -> use 2 functions millis() and micros()
+  counter_ms++; //1ms
+
+	//if interrupt 1us
+	// counter_us++; 
 }
 
 uint32_t millis(void) {
@@ -69,20 +70,26 @@ uint32_t millis(void) {
 }
 
 uint32_t micros(void) {
-  int Micros = millis()*1000 + (SystemCoreClock/1000000-SysTick->VAL)/72;
-  return Micros;
+  return counter_us;
+  // return millis()*1000 + (SystemCoreClock/1000000-SysTick->VAL)/72;
 }
 
 void delay_init(void){
 	//NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
-	//SysTick_Config(SystemCoreClock / 1000);	// ngat 1ms
-  SysTick_Config(SystemCoreClock / 1000000); // Configure SysTick timer
+	SysTick_Config(SystemCoreClock / 1000);	// interrupt 1ms
+  // SysTick_Config(SystemCoreClock / 1000000); // interrupt 1us
 }
+
+void delay_s (uint32_t s) {
+  delay_ms(1000*s);
+}
+
 void delay_ms (uint32_t ms) {
-  delay_us(1000*ms);
+  counter_ms = 0;
+  while (millis() < ms);
 }
 
 void delay_us(uint32_t us) {
-  counter_ms = 0;
-  while (millis() < us);
+  counter_us = 0;
+  while (micros() < us);
 }

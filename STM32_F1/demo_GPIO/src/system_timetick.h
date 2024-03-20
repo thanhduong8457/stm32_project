@@ -39,8 +39,7 @@ uint32_t micros(void);
 void delay_init(void);
 void delay_ms(uint32_t nms);
 void delay_us(uint32_t us);
-void delay( uint32_t ms );
-void delayMicroseconds(uint32_t us);
+void delay_s( uint32_t s );
 
 #ifdef __cplusplus
 }
