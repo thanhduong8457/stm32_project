@@ -33,12 +33,12 @@ void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
 
-u32 millis(void);
-u32 micros(void);
+uint32_t millis(void);
+uint32_t micros(void);
 
 void delay_init(void);
-void delay_ms(u32 nms);
-void delay_us(u32 nus);
+void delay_ms(uint32_t nms);
+void delay_us(uint32_t us);
 void delay( uint32_t ms );
 void delayMicroseconds(uint32_t us);
 

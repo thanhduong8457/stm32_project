@@ -1,7 +1,10 @@
 #include "stm32f10x.h"
 #include "system_timetick.h"
+#include "system_stm32f10x.h"
 
 int main(void) {
+  SystemInit();
+  SystemCoreClockUpdate();
   delay_init();
 
   GPIO_InitTypeDef GPIO_InitStructure;
@@ -15,9 +18,9 @@ int main(void) {
      
   while (1) {
     GPIO_SetBits(GPIOC, GPIO_Pin_13);
-    delay_ms(100);
+    delay_ms(500);
     GPIO_ResetBits(GPIOC, GPIO_Pin_13);
-    delay_ms(100);
+    delay_ms(500);
     /* Set PD0 and PD2 */
     // GPIOC->BSRR = 0xffffffff;
     /* Reset PD0 and PD2 */
