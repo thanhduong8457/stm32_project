@@ -19,16 +19,16 @@ int main(void) {
   int tick = 0;
   while (1) {
     GPIO_SetBits(GPIOC, GPIO_Pin_13);
-    delay_ms(a);
+    delay_ms(200);
     GPIO_ResetBits(GPIOC, GPIO_Pin_13);
-    delay_ms(10-a);
-    if(tick++==100) {
-      tick = 0;
-      a +=1;
-      if (a > 10) {
-        a = 0;
-      }
-    }
+    delay_ms(800);
+    // if(tick++==100) {
+    //   tick = 0;
+    //   a +=1;
+    //   if (a > 10) {
+    //     a = 0;
+    //   }
+    // }
     /* Set PD0 and PD2 */
     // GPIOC->BSRR = 0xffffffff;
     /* Reset PD0 and PD2 */
