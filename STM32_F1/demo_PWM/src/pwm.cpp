@@ -44,7 +44,7 @@ void set_servo_angle(unsigned int angle) {
     }
 
     // Calculate pulse width (500 to 2500 microseconds) from angle
-    uint16_t pulse_width = 1000 + (angle * (1000.0/180.0));
+    uint16_t pulse_width = 500 + (angle * (2000.0/180.0));
 
     // Update PWM pulse width
     TIM_SetCompare4(TIM4, pulse_width);
