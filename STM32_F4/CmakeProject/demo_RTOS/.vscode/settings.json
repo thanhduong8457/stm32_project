@@ -10,6 +10,7 @@
     ],
     "files.associations": {
         "portable.h": "c",
-        "portmacro.h": "c"
+        "portmacro.h": "c",
+        "freertosconfig.h": "c"
     }
 }
