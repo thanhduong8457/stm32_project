@@ -14,7 +14,8 @@
             "defines": [
                 "USE_STDPERIPH_DRIVER",
                 "STM32F40_41xxx",
-                "HSE_VALUE=8000000"
+                "HSE_VALUE=8000000",
+                "__VFP_FP__"
             ],
             "cStandard": "c11",
             "cppStandard": "c++20"

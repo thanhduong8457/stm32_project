@@ -13,6 +13,9 @@ void vTask4(void * pvParams);
 
 void init_gpio(void);
 
+/// @brief 
+/// @param  
+/// @return 
 int main(void) {
     SystemInit();
     SystemCoreClockUpdate();
@@ -33,8 +36,10 @@ int main(void) {
     return -1;
 }
 
+/// @brief 
+/// @param  
 void init_gpio(void) {
-    #ifndef REGISTER
+#ifndef REGISTER
     GPIO_InitTypeDef GPIO_InitStructure; 
     //Enable clock GPIOD
     RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
@@ -46,18 +51,20 @@ void init_gpio(void) {
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
 
     GPIO_Init(GPIOD, &GPIO_InitStructure);  
-    #else
+#else
     /*GPIOD clock*/
     RCC->AHB1ENR = (1<<3);
     /*GPIOD config*/
     GPIOD->MODER &= ~(3<<24);
     GPIOD->MODER |= (1<<24);
     GPIOD->OTYPER &= ~(1<<12);
-    #endif   
+#endif
 }
 
+/// @brief 
+/// @param pvParams 
 void vTask1(void * pvParams) {
-    while(1) {
+    while(true) {
 #ifndef REGISTER
         GPIO_ToggleBits(GPIOD, GPIO_Pin_12);
         vTaskDelay(100);
@@ -70,8 +77,10 @@ void vTask1(void * pvParams) {
     }
 }
 
+/// @brief 
+/// @param pvParams 
 void vTask2(void * pvParams) {
-    while(1) {
+    while(true) {
 #ifndef REGISTER
         GPIO_ToggleBits(GPIOD, GPIO_Pin_13);
         vTaskDelay(200);
@@ -84,8 +93,10 @@ void vTask2(void * pvParams) {
     }
 }
 
+/// @brief 
+/// @param pvParams 
 void vTask3(void * pvParams) {
-    while(1) {
+    while(true) {
 #ifndef REGISTER
         GPIO_ToggleBits(GPIOD, GPIO_Pin_14);
         vTaskDelay(300);
@@ -98,8 +109,10 @@ void vTask3(void * pvParams) {
     }
 }
 
+/// @brief 
+/// @param pvParams 
 void vTask4(void * pvParams) {
-    while(1) {
+    while(true) {
 #ifndef REGISTER
         GPIO_ToggleBits(GPIOD, GPIO_Pin_15);
         vTaskDelay(400);
