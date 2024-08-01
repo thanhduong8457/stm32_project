@@ -11,7 +11,10 @@
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "openocd",
-            "configFiles": ["/opt/homebrew/Cellar/open-ocd/0.12.0_1/share/openocd/scripts/interface/stlink-v2.cfg", "/opt/homebrew/Cellar/open-ocd/0.12.0_1/share/openocd/scripts/target/stm32f4x.cfg"],
+            "configFiles": [
+                "/opt/homebrew/Cellar/open-ocd/0.12.0_1/share/openocd/scripts/interface/stlink-v2.cfg", 
+                "/opt/homebrew/Cellar/open-ocd/0.12.0_1/share/openocd/scripts/target/stm32f4x.cfg"
+            ],
             "device": "STM32F407VG",
             "interface": "swd",
             "svdFile": "", // Include svd to watch device peripherals 

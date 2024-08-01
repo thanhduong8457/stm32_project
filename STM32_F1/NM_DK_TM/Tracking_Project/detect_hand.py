@@ -43,16 +43,16 @@ if __name__ == "__main__":
                     h, w, c = img.shape
                     cx, cy = int(lm.x*w), int(lm.y*h)
 
-                    if id==4:
-                        cx_4,cy_4 = cx,cy
-                    if id==8:
-                        distance = round(((float)((((cx-cx_4)**2+(cy-cy_4)**2)**0.5)*(28.5/1280))),2)          
+                    # if id==4:
+                    #     cx_4,cy_4 = cx,cy
+                    # if id==8:
+                    #     distance = round(((float)((((cx-cx_4)**2+(cy-cy_4)**2)**0.5)*(28.5/1280))),2)          
                     
-                        datasend = str(distance)+"\r\n"
-                        count = count + 1
-                        if(count==3):
-                            count = 0
-                            ser.write(datasend.encode())
+                        # datasend = str(distance)+"\r\n"
+                        # count = count + 1
+                        # if(count==3):
+                        #     count = 0
+                        #     ser.write(datasend.encode())
 
                 myDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
 

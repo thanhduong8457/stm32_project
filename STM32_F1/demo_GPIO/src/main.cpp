@@ -20,9 +20,9 @@ int main(void) {
   int tick = 0;
   while (true) {
     GPIO_SetBits(GPIOC, GPIO_Pin_13);
-    delay_ms(200);
+    delay_ms(100);
     GPIO_ResetBits(GPIOC, GPIO_Pin_13);
-    delay_ms(800);
+    delay_ms(100);
     // if(tick++==100) {
     //   tick = 0;
     //   a +=1;

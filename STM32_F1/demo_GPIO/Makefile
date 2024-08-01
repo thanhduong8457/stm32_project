@@ -24,7 +24,7 @@ format: $(addsuffix .format,${SRCS})
 	clang-format -i $<
 
 flash:
-	st-flash write build/demo.bin 0x08000000
+	st-flash write build/demo_GPIO.bin 0x08000000
 
 clean:
 	rm -rf $(BUILD_DIR)

@@ -2,12 +2,12 @@
 // Feel free to copy these and modify them for your debugger and MCU
 {
     "version": "0.2.0",
-    "projectName": "demo_GPIO",
+    "projectName": "demo_CAN",
     "configurations": [
         {
             "name": "JLink launch",
             "cwd": "${workspaceRoot}",
-            "executable": "${workspaceRoot}/build/demo_GPIO.elf",
+            "executable": "${workspaceRoot}/build/demo_CAN.elf",
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "openocd",

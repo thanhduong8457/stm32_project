@@ -2,13 +2,12 @@
 #include <string>
 
 #include "stm32f4xx.h"
-#include "system_timetick.h"
-#include "stdio.h"
+// #include "system_timetick.h"
+// #include "stdio.h"
 
 // void init_gpio(void);
 
-void CAN_GPIO_Init(void)
-{
+void CAN_GPIO_Init(void) {
     GPIO_InitTypeDef GPIO_InitStructure;
 
     /* Enable GPIO clock */
@@ -27,8 +26,7 @@ void CAN_GPIO_Init(void)
     GPIO_PinAFConfig(GPIOB, GPIO_PinSource9, GPIO_AF_CAN1);
 }
 
-void CAN_Config(void)
-{
+void CAN_Config(void) {
     CAN_InitTypeDef CAN_InitStructure;
     CAN_FilterInitTypeDef CAN_FilterInitStructure;
 
@@ -65,8 +63,7 @@ void CAN_Config(void)
     CAN_FilterInit(&CAN_FilterInitStructure);
 }
 
-void CAN_NVIC_Config(void)
-{
+void CAN_NVIC_Config(void) {
     NVIC_InitTypeDef NVIC_InitStructure;
 
     NVIC_InitStructure.NVIC_IRQChannel = CAN1_RX0_IRQn;
@@ -79,11 +76,9 @@ void CAN_NVIC_Config(void)
     CAN_ITConfig(CAN1, CAN_IT_FMP0, ENABLE);
 }
 
-void CAN1_RX0_IRQHandler(void)
-{
+void CAN1_RX0_IRQHandler(void) {
     CanRxMsg RxMessage;
-    if (CAN_GetITStatus(CAN1, CAN_IT_FMP0) != RESET)
-    {
+    if (CAN_GetITStatus(CAN1, CAN_IT_FMP0) != RESET) {
         CAN_Receive(CAN1, CAN_FIFO0, &RxMessage);
         CAN_ClearITPendingBit(CAN1, CAN_IT_FMP0);
 
@@ -91,8 +86,7 @@ void CAN1_RX0_IRQHandler(void)
     }
 }
 
-void CAN_Send_Message(uint32_t id, uint8_t* data, uint8_t length)
-{
+void CAN_Send_Message(uint32_t id, uint8_t* data, uint8_t length) {
     CanTxMsg TxMessage;
     uint8_t i;
 
@@ -101,20 +95,17 @@ void CAN_Send_Message(uint32_t id, uint8_t* data, uint8_t length)
     TxMessage.IDE = CAN_ID_STD;
     TxMessage.DLC = length;
 
-    for (i = 0; i < length; i++)
-    {
+    for (i = 0; i < length; i++) {
         TxMessage.Data[i] = data[i];
     }
 
     CAN_Transmit(CAN1, &TxMessage);
 }
 
-void CAN_Receive_Message(void)
-{
+void CAN_Receive_Message(void) {
     CanRxMsg RxMessage;
 
-    if (CAN_MessagePending(CAN1, CAN_FIFO0) != 0)
-    {
+    if (CAN_MessagePending(CAN1, CAN_FIFO0) != 0) {
         CAN_Receive(CAN1, CAN_FIFO0, &RxMessage);
 
         /* Process received message */
@@ -122,20 +113,8 @@ void CAN_Receive_Message(void)
 }
 
 int main(void) {
-  // delay_init();
-  // init_gpio();
-
-	// while(true) {
-  //   #ifndef REGISTER
-  //   GPIO_ToggleBits(GPIOD, GPIO_Pin_12|GPIO_Pin_13|GPIO_Pin_14|GPIO_Pin_15);
-	// 	delay_ms(10);
-  //   #else
-  //   GPIOD->ODR |= (1<<12);
-  //   delay_ms(50);
-  //   GPIOD->ODR &= ~(1<<12);
-  //   delay_ms(50);
-  //   #endif
-	// }
+    // delay_init();
+    // init_gpio();
 
     SystemInit();
     CAN_GPIO_Init();
@@ -145,31 +124,7 @@ int main(void) {
     uint8_t message[8] = "Hello";
     CAN_Send_Message(0x321, message, 5);
 
-    while (1)
-    {
+    while (1) {
         CAN_Receive_Message();
     }
 }
-
-// void init_gpio(void) {
-//   #ifndef REGISTER
-//   GPIO_InitTypeDef 	GPIO_InitStructure; 
-//   //Enable clock GPIOD
-// 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
-	
-//   GPIO_InitStructure.GPIO_Pin   = GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15;
-//   GPIO_InitStructure.GPIO_Mode  = GPIO_Mode_OUT;
-//   GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-//   GPIO_InitStructure.GPIO_PuPd  = GPIO_PuPd_NOPULL;
-//   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
-
-//   GPIO_Init(GPIOD, &GPIO_InitStructure);  
-//   #else
-//   /*GPIOD clock*/
-//   RCC->AHB1ENR = (1<<3);
-//   /*GPIOD config*/
-//   GPIOD->MODER &= ~(3<<24);
-//   GPIOD->MODER |= (1<<24);
-//   GPIOD->OTYPER &= ~(1<<12);
-//   #endif   
-// }

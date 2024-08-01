@@ -20,11 +20,33 @@ int main(void) {
 
     set_servo_angle(share_value);
 
+    int delay = 10;
+
+    int angle = 0;
+    bool derection = false;
     while (1) {
-        GPIO_SetBits(GPIOC, GPIO_Pin_13);
-        delay_ms(500);
-        GPIO_ResetBits(GPIOC, GPIO_Pin_13);
-        delay_ms(500);
+
+        // GPIO_SetBits(GPIOC, GPIO_Pin_13);
+        // delay_ms(500);
+        // GPIO_ResetBits(GPIOC, GPIO_Pin_13);
+        // delay_ms(500);
         // printf("current angle is %d degree\r\n", share_value);
+
+        set_servo_angle(angle);
+        delay_ms(delay);
+
+        if (false == derection) {
+            angle += 1;
+        } 
+        else {
+            angle -= 1;
+        }
+
+        if (180 < angle) {
+            derection = true;
+        } 
+        else if (0 > angle) {
+            derection = false;
+        }
     }
 }

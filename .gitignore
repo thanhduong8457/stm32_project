@@ -1,8 +1,9 @@
-.DS_Store
+*.DS_Store
 *.vc.db-shm
 *.vc.db-wal
 *.obj
 *.hex
 *.elf
 *.vc.db
-build/*
+*.pyc
+build
