@@ -1,3 +1,9 @@
 [submodule "STM32_F4/CmakeProject/demo_RTOS/FreeRTOS-Kernel"]
 	path = STM32_F4/CmakeProject/demo_RTOS/FreeRTOS-Kernel
 	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "STM32_F1/demo_RTOS/FreeRTOS-Kernel"]
+	path = STM32_F1/demo_RTOS/FreeRTOS-Kernel
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "STM32_F1/demo_RTOS/stm32f10x-stdperiph-lib"]
+	path = STM32_F1/demo_RTOS/stm32f10x-stdperiph-lib
+	url = https://github.com/wajatimur/stm32f10x-stdperiph-lib.git

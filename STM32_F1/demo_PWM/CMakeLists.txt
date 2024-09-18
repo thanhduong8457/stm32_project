@@ -74,6 +74,7 @@ target_include_directories(${EXECUTABLE} PRIVATE
 # Compiler and linker options
 target_compile_options(${EXECUTABLE} PRIVATE
     ${CPU_PARAMETERS}
+    ${OPENCM3_COMPILER_FLAGS}
     -Wall
     -Wextra
     -Wpedantic
