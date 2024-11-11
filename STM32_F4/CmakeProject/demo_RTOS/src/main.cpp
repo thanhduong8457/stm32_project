@@ -1,10 +1,14 @@
-// #include <iostream>
-// #include <string>
-
 #include "stm32f4xx.h"
 #include "stdio.h"
 #include "FreeRTOS.h"
 #include "task.h"
+
+uint16_t N, Nx, Ny, Nz;
+uint16_t countX=0;
+uint16_t countY=0;
+uint16_t countZ=0;
+
+uint16_t acc1, acc2, acc3;
 
 void vTask1(void * pvParams);
 void vTask2(void * pvParams);
@@ -20,6 +24,14 @@ int main(void) {
     SystemInit();
     SystemCoreClockUpdate();
     init_gpio();
+
+    N = 10;
+    Nx = 8;
+    Ny = 10;
+    Nz = 8;
+    acc1 = 0;
+    acc2 = 0;
+    acc3 = 0;
 
     // Create a task
     // Stack and TCB are placed in CCM of STM32F4
@@ -65,15 +77,28 @@ void init_gpio(void) {
 /// @param pvParams 
 void vTask1(void * pvParams) {
     while(true) {
-#ifndef REGISTER
-        GPIO_ToggleBits(GPIOD, GPIO_Pin_12);
-        vTaskDelay(100);
-#else
-        GPIOD->ODR |= (1<<12);
-        delay_ms(50);
-        GPIOD->ODR &= ~(1<<12);
-        delay_ms(50);
-#endif
+        BitAction set_value = BitAction::Bit_SET;
+        while(true) {
+            acc1 = acc1 + Nx;
+            if (acc1 > N) {
+                set_value = BitAction::Bit_SET;
+                acc1 = acc1 - N;
+                countX++;
+                if (countX == Nx) {
+                    // acc1 = 0;
+                    // Nx = 0;
+                    countX = 0;
+                }
+            }
+            else {
+                set_value = BitAction::Bit_RESET;
+            }
+            GPIO_WriteBit(GPIOD, GPIO_Pin_12, set_value);
+            vTaskDelay(5); // delay10us(5);
+            GPIO_WriteBit(GPIOD, GPIO_Pin_12, BitAction::Bit_RESET);
+            vTaskDelay(5); // delay10us(5);
+
+        }
     }
 }
 
@@ -81,15 +106,28 @@ void vTask1(void * pvParams) {
 /// @param pvParams 
 void vTask2(void * pvParams) {
     while(true) {
-#ifndef REGISTER
-        GPIO_ToggleBits(GPIOD, GPIO_Pin_13);
-        vTaskDelay(200);
-#else
-        GPIOD->ODR |= (1<<12);
-        delay_ms(50);
-        GPIOD->ODR &= ~(1<<12);
-        delay_ms(50);
-#endif
+        BitAction set_value = BitAction::Bit_SET;
+        while(true) {
+            acc2 = acc2 + Ny;
+            if (acc2 > N) {
+                set_value = BitAction::Bit_SET;
+                acc2 = acc2 - N;
+                countX++;
+                if (countY == Ny) {
+                    // acc2 = 0;
+                    // Nx = 0;
+                    countY = 0;
+                }
+            }
+            else {
+                set_value = BitAction::Bit_RESET;
+            }
+            GPIO_WriteBit(GPIOD, GPIO_Pin_13, set_value);
+            vTaskDelay(5); // delay10us(5);
+            GPIO_WriteBit(GPIOD, GPIO_Pin_13, BitAction::Bit_RESET);
+            vTaskDelay(5); // delay10us(5);
+
+        }
     }
 }
 
@@ -97,15 +135,28 @@ void vTask2(void * pvParams) {
 /// @param pvParams 
 void vTask3(void * pvParams) {
     while(true) {
-#ifndef REGISTER
-        GPIO_ToggleBits(GPIOD, GPIO_Pin_14);
-        vTaskDelay(300);
-#else
-        GPIOD->ODR |= (1<<12);
-        delay_ms(50);
-        GPIOD->ODR &= ~(1<<12);
-        delay_ms(50);
-#endif
+        BitAction set_value = BitAction::Bit_SET;
+        while(true) {
+            acc3 = acc3 + Nz;
+            if (acc3 > N) {
+                set_value = BitAction::Bit_SET;
+                acc3 = acc3 - N;
+                countZ++;
+                if (countZ == Nz) {
+                    // acc3 = 0;
+                    // Nx = 0;
+                    countZ = 0;
+                }
+            }
+            else {
+                set_value = BitAction::Bit_RESET;
+            }
+            GPIO_WriteBit(GPIOD, GPIO_Pin_14, set_value);
+            vTaskDelay(5); // delay10us(5);
+            GPIO_WriteBit(GPIOD, GPIO_Pin_15, BitAction::Bit_RESET);
+            vTaskDelay(5); // delay10us(5);
+
+        }
     }
 }
 

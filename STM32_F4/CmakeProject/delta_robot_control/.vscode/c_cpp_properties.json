@@ -5,6 +5,8 @@
             "includePath": [
                 "${workspaceRoot}",
                 "${workspaceRoot}/src",
+                "${workspaceRoot}/FreeRTOS-Kernel/include",
+                "${workspaceRoot}/FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
                 "${workspaceRoot}/Drivers/STM32F4xx_StdPeriph_Driver/inc",
                 "${workspaceRoot}/Drivers/CMSIS/Include",
                 "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
