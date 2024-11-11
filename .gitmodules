@@ -10,3 +10,12 @@
 [submodule "STM32_F4/CmakeProject/delta_robot_control/FreeRTOS-Kernel"]
 	path = STM32_F4/CmakeProject/delta_robot_control/FreeRTOS-Kernel
 	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "STM32_F4/CmakeProject/demo_RTOS/STM32F4_Driver"]
+	path = STM32_F4/CmakeProject/demo_RTOS/STM32F4_Driver
+	url = https://github.com/thanhduong8457/STM32F4_Driver.git
+[submodule "STM32_F4/CmakeProject/delta_robot_control/STM32F4_Driver"]
+	path = STM32_F4/CmakeProject/delta_robot_control/STM32F4_Driver
+	url = https://github.com/thanhduong8457/STM32F4_Driver.git
+[submodule "STM32_F4/MakeFileProject/demo_GPIO/STM32F4_Driver"]
+	path = STM32_F4/MakeFileProject/demo_GPIO/STM32F4_Driver
+	url = https://github.com/thanhduong8457/STM32F4_Driver.git

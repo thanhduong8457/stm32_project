@@ -7,9 +7,9 @@
                 "${workspaceRoot}/src",
                 "${workspaceRoot}/FreeRTOS-Kernel/include",
                 "${workspaceRoot}/FreeRTOS-Kernel/portable/GCC/ARM_CM3",
-                "${workspaceRoot}/Drivers/STM32F10x_StdPeriph_Driver/inc",
-                "${workspaceRoot}/Drivers/CMSIS/CM3/DeviceSupport/ST/STM32F10x",
-                "${workspaceRoot}/Drivers/CMSIS/CM3/CoreSupport"
+                "${workspaceRoot}/stm32f10x-stdperiph-lib/Libraries/STM32F10x_StdPeriph_Driver/inc",
+                "${workspaceRoot}/stm32f10x-stdperiph-lib/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x",
+                "${workspaceRoot}/stm32f10x-stdperiph-lib/Libraries/CMSIS/CM3/CoreSupport"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",
