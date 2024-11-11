@@ -121,27 +121,27 @@ SRC += $(SRC_FOLDER)/*.cpp
 DEVICE_STARTUP = $(BASE_STARTUP)/$(MAPPED_DEVICE).s
 
 # Include the CMSIS files
-CPPFLAGS += -I./../_Drivers_/CMSIS/Include
-CPPFLAGS += -I./../_Drivers_/CMSIS/Device/ST/STM32F4xx/Include
+CPPFLAGS += -I./STM32F4_Driver/CMSIS/Include
+CPPFLAGS += -I./STM32F4_Driver/CMSIS/Device/ST/STM32F4xx/Include
 
 # Include the HAL files
 CPPFLAGS += -D USE_STDPERIPH_DRIVER
 CPPFLAGS += -D STM32F40_41xxx
 CPPFLAGS += -D HSE_VALUE=8000000
-CPPFLAGS += -I./../_Drivers_/STM32F4xx_StdPeriph_Driver/inc
+CPPFLAGS += -I./STM32F4_Driver/STM32F4xx_StdPeriph_Driver/inc
 
 # A simply expanded variable is used here to perform the find command only once.
-STD_SRC := $(shell find ./../_Drivers_/STM32F4xx_StdPeriph_Driver/src/*.c ! -name '*_template.c')
+STD_SRC := $(shell find ./STM32F4_Driver/STM32F4xx_StdPeriph_Driver/src/*.c ! -name '*_template.c')
 SRC += $(STD_SRC)
 
 # SRC += \
-# ./../_Drivers_/STM32F4xx_StdPeriph_Driver/src/misc.c \
-# ./../_Drivers_/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c \
-# ./../_Drivers_/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c \
-# ./../_Drivers_/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c \
-# ./../_Drivers_/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c \
-# ./../_Drivers_/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c \
-# ./../_Drivers_/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c
+# ./STM32F4_Driver/STM32F4xx_StdPeriph_Driver/src/misc.c \
+# ./STM32F4_Driver/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c \
+# ./STM32F4_Driver/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c \
+# ./STM32F4_Driver/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c \
+# ./STM32F4_Driver/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c \
+# ./STM32F4_Driver/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c \
+# ./STM32F4_Driver/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c
 
 # Make all
 all:$(BIN_FILE_PATH)
