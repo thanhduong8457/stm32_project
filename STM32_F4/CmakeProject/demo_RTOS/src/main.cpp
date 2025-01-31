@@ -6,6 +6,7 @@
 uint16_t N, Nx, Ny, Nz;
 uint16_t countX=0;
 uint16_t countY=0;
+
 uint16_t countZ=0;
 
 uint16_t acc1, acc2, acc3;

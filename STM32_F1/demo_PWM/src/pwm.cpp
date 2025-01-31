@@ -1,5 +1,4 @@
 #include "stm32f10x.h"
-
 #include "pwm.h"
 
 void TIM4_PWM_Init(void) {

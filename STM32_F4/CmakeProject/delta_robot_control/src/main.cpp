@@ -2,12 +2,11 @@
 #include "stdio.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "gpio.h"
 
 void vTask1(void * pvParams);
-// void vTask2(void * pvParams);
-// void vTask3(void * pvParams);
-
-void init_gpio(void);
+void vTask2(void * pvParams);
+void vTask3(void * pvParams);
 
 uint16_t N, Nx, Ny, Nz;
 uint16_t acc1, acc2, acc3;
@@ -81,82 +80,55 @@ void vTask1(void * pvParams) {
     }
 }
 
-// /// @brief 
-// /// @param pvParams 
-// void vTask2(void * pvParams) {
-//     while(true) {
-//         // caculate for arm 2
-//         acc2 = acc2 + Ny;
-//         if (acc2 > N) {
-//             acc2 = acc2 - N;
-//             GPIO_SetBits(GPIOD, GPIO_Pin_13);
-//             vTaskDelay(5); // delay10us(5);
-//             GPIO_ResetBits(GPIOD, GPIO_Pin_13);
-//             vTaskDelay(5); // delay10us(5);
+/// @brief 
+/// @param pvParams 
+void vTask2(void * pvParams) {
+    while(true) {
+        // caculate for arm 2
+        acc2 = acc2 + Ny;
+        if (acc2 > N) {
+            acc2 = acc2 - N;
+            GPIO_SetBits(GPIOD, GPIO_Pin_13);
+            vTaskDelay(5); // delay10us(5);
+            GPIO_ResetBits(GPIOD, GPIO_Pin_13);
+            vTaskDelay(5); // delay10us(5);
             
-//             countY++;
-//             if (countY == Ny) {
-//                 acc2 = 0;
-//                 Ny = 0;
-//                 countY = 0;
-//             }
-//         }
-//     }
-// }
+            // countY++;
+            // if (countY == Ny) {
+            //     acc2 = 0;
+            //     Ny = 0;
+            //     countY = 0;
+            // }
+        }
+    }
+}
 
-// /// @brief 
-// /// @param pvParams 
-// void vTask3(void * pvParams) {
-//     while(true) {
+/// @brief 
+/// @param pvParams 
+void vTask3(void * pvParams) {
+    while(true) {
 
-//         // caculate for arm 3
-//         acc3 = acc3 + Nz;
-//         if (acc3 > N) {
-//             acc3 = acc3 - N;
-//             GPIO_SetBits(GPIOD, GPIO_Pin_14);
-//             vTaskDelay(5); // delay10us(5);
-//             GPIO_ResetBits(GPIOD, GPIO_Pin_14);
-//             vTaskDelay(5); // delay10us(5);
+        // caculate for arm 3
+        acc3 = acc3 + Nz;
+        if (acc3 > N) {
+            acc3 = acc3 - N;
+            GPIO_SetBits(GPIOD, GPIO_Pin_14);
+            vTaskDelay(5); // delay10us(5);
+            GPIO_ResetBits(GPIOD, GPIO_Pin_14);
+            vTaskDelay(5); // delay10us(5);
 
-//             countZ++;
-//             if (countZ == Nz) {
-//                 acc3 = 0;
-//                 Nz = 0;
-//                 countZ = 0;
-//             }
-//         }
+            // countZ++;
+            // if (countZ == Nz) {
+            //     acc3 = 0;
+            //     Nz = 0;
+            //     countZ = 0;
+            // }
+        }
 
-//         if ((Nx == 0) & (Ny == 0) & (Nz == 0)) {
-//             // DoneStatus = true;
-//             // HAL_TIM_Base_Stop_IT(&htim2); // stop trigger timer interrupt during empty buffer
-//         }
+        if ((Nx == 0) & (Ny == 0) & (Nz == 0)) {
+            // DoneStatus = true;
+            // HAL_TIM_Base_Stop_IT(&htim2); // stop trigger timer interrupt during empty buffer
+        }
 
-//     }
-// }
-
-void init_gpio(void) {
-#ifndef REGISTER
-    GPIO_InitTypeDef GPIO_InitStructure;
-    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE); // Enable clock GPIOD
-
-    GPIO_InitStructure.GPIO_Pin = 
-    GPIO_Pin_12 
-    | GPIO_Pin_13 
-    | GPIO_Pin_14 ;
-    // | GPIO_Pin_15;
-
-    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
-    GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-    GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;
-    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
-
-    GPIO_Init(GPIOD, &GPIO_InitStructure);
-#else
-    /*GPIOD clock*/
-    RCC->AHB1ENR = (1 << 3);
-    /*GPIOD config*/
-    GPIOD->MODER &= ~(3 << 24);
-    GPIOD->MODER |= (1 << 24);
-    GPIOD->OTYPER &= ~(1 << 12);
-#endif
+    }
 }
