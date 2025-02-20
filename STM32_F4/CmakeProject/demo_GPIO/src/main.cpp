@@ -7,32 +7,30 @@
 
 void init_gpio(void);
 
-int main(void)
-{
-  delay_init();
-  init_gpio();
+int main(void) {
+    delay_init();
+    init_gpio();
 
-	while(true)
-  {
-    #ifndef REGISTER
-    GPIO_ToggleBits(GPIOD, GPIO_Pin_12|GPIO_Pin_13|GPIO_Pin_14|GPIO_Pin_15);
-		delay_ms(10);
-    #else
-    GPIOD->ODR |= (1<<12);
-    delay_ms(50);
-    GPIOD->ODR &= ~(1<<12);
-    delay_ms(50);
-    #endif
-	}
+    while(true) {
+        #ifndef REGISTER
+        GPIO_ToggleBits(GPIOD, GPIO_Pin_12|GPIO_Pin_13|GPIO_Pin_14|GPIO_Pin_15);
+            delay_ms(10);
+        #else
+        GPIOD->ODR |= (1<<12);
+        delay_ms(50);
+        GPIOD->ODR &= ~(1<<12);
+        delay_ms(50);
+        #endif
+    }
 }
 
 void init_gpio(void)
 {
   #ifndef REGISTER
-  GPIO_InitTypeDef 	GPIO_InitStructure; 
+  GPIO_InitTypeDef     GPIO_InitStructure; 
   //Enable clock GPIOD
-	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
-	
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
+    
   GPIO_InitStructure.GPIO_Pin   = GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15;
   GPIO_InitStructure.GPIO_Mode  = GPIO_Mode_OUT;
   GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
