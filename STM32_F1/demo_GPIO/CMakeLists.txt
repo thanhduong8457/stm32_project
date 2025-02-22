@@ -30,10 +30,10 @@ set(CMAKE_CXX_EXTENSIONS ON)
 # Headers
 set(CUBEMX_INCLUDE_DIRECTORIES
     ${CMAKE_CURRENT_SOURCE_DIR}/src
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/${MCU_FAMILY}_StdPeriph_Driver/inc
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/${MCU_FAMILY}_StdPeriph_Driver/src
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/CM3/DeviceSupport/ST/${MCU_FAMILY}
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/CM3/CoreSupport
+    ${CMAKE_CURRENT_SOURCE_DIR}/stm32f10x-stdperiph-lib/Libraries/${MCU_FAMILY}_StdPeriph_Driver/inc
+    ${CMAKE_CURRENT_SOURCE_DIR}/stm32f10x-stdperiph-lib/Libraries/${MCU_FAMILY}_StdPeriph_Driver/src
+    ${CMAKE_CURRENT_SOURCE_DIR}/stm32f10x-stdperiph-lib/Libraries/CMSIS/CM3/DeviceSupport/ST/${MCU_FAMILY}
+    ${CMAKE_CURRENT_SOURCE_DIR}/stm32f10x-stdperiph-lib/Libraries/CMSIS/CM3/CoreSupport
 )
 
 set(PROJECT_INCLUDE_DIRECTORIES
@@ -43,7 +43,7 @@ set(PROJECT_INCLUDE_DIRECTORIES
 
 # Sources
 file(GLOB_RECURSE STM32CUBEMX_SOURCES
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/${MCU_FAMILY}_StdPeriph_Driver/src/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/stm32f10x-stdperiph-lib/Libraries/${MCU_FAMILY}_StdPeriph_Driver/src/*.c
 )
 
 file(GLOB_RECURSE PROJECT_SOURCES FOLLOW_SYMLINKS
