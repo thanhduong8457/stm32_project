@@ -8,6 +8,7 @@
 *.vc.db
 *.pyc
 build
+FreeRTOS-Kernel
 Drivers
 STM32F4_Driver
 stm32f10x-stdperiph-lib
